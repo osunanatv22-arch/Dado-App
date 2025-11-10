@@ -1,5 +1,5 @@
 - Encabezado
-- `slider` para número de tiradas
+- slider para número de tiradas
 - Botón para re-lanzar
 - Checkboxes para **histograma** y **dispersión** (cumple el requisito)
 - Manejo de `session_state` para no chocar con IDs y evitar errores de keys duplicados
