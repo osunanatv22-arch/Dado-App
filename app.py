@@ -1,10 +1,10 @@
-- Encabezado
-- slider para número de tiradas
-- Botón para re-lanzar
-- Checkboxes para **histograma** y **dispersión** (cumple el requisito)
-- Manejo de `session_state` para no chocar con IDs y evitar errores de keys duplicados
+#- Encabezado
+#- slider para número de tiradas
+#- Botón para re-lanzar
+#- Checkboxes para **histograma** y **dispersión** (cumple el requisito)
+#- Manejo de `session_state` para no chocar con IDs y evitar errores de keys duplicados
 
-```python
+#```python
 import numpy as np
 import pandas as pd
 import plotly.express as px
