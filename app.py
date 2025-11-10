@@ -1,6 +1,3 @@
-
-## app.py
-Pega este código (cuida la indentación). Tiene:
 - Encabezado
 - `slider` para número de tiradas
 - Botón para re-lanzar
