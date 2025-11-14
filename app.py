@@ -36,7 +36,7 @@ if st.button("🎯 Lanzar dado", key="btn_lanzar"):
         "valor": valores
     })
 
-# Si no hay tiradas hechas en esta sesión aún, crear una primera por defecto
+# Si no hay tiradas hechas, se crea una primera por defecto
 if st.session_state["rolls"].empty:
     valores = np.random.randint(1, 7, size=n)
     st.session_state["rolls"] = pd.DataFrame({
